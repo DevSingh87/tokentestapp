@@ -1,0 +1,7 @@
+Hi <%= @employee.name %>,
+
+For complete the creation process, please click the URL below.
+
+<br/>
+
+<%= verify_email_phone_number_employee_url(@employee.verify_token) %>
